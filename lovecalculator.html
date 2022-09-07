@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>love calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="loveCalculator.js"></script>
+    <style>
+        body {
+            background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("image.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+
+        /*koi bi vi eak div ke under  baki div center ma chayea to yo css use hunxxa*/
+        header {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+<body>
+    <header>
+        <div class="card w-50 m-auto text-center">
+            <div class="card-header bg-danger text-white">love calculator</div>
+            <div class="card-body">
+                <form class="form-inline w-75 m-auto">
+                    <div class="form-group">
+                        <input type="text" name="" class="form-control text-center" placeholder="your name" id="name">
+                    </div>
+                    <div>
+                        <span class="pl-4 pr-4">+</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" class="form-control text-center" placeholder="your love name"
+                            id="lname">
+                    </div>
+                </form>
+                <br><br>
+                <div class="w-75 m-auto">
+                    <button class="btn btn-primary w-50" onclick="checklove()">click</button>
+
+                </div>
+                <br><br><br>
+                <div>
+                    <input type="text" name="" id="lovevalue" class="form-control text-center w-25 m-auto"
+                        placeholder="love percentage">
+                </div>
+            </div>
+            <div class="card-footer">god bless you relatipship</div>
+
+        </div>
+    </header>
+
+</body>
+
+</html>
